@@ -4,6 +4,18 @@ spring:
   application:
     #应用的名称，可选
     name: reggie_take_out
+  #Redis相关配置
+  redis:
+    host: localhost
+    port: 6379
+    database: 0
+#    jedis:
+#      #Redis连接池配置
+#      pool:
+#        max-active: 8
+#        max-wait: 1ms
+#        max-idle: 4
+#        min-idle: 0
   datasource:
     druid:
       driver-class-name: com.mysql.cj.jdbc.Driver
@@ -26,4 +38,3 @@ mybatis-plus:
 
 reggie:
   path: D:\code\JavaProject\reggie_take_out\src\main\resources\image\
-
