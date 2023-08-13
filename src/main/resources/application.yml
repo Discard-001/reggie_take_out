@@ -40,4 +40,5 @@ mybatis-plus:
       id-type: ASSIGN_ID
 
 reggie:
-  path: D:\code\JavaProject\reggie_take_out\src\main\resources\image\
+  path: /usr/local/java_app/reggie_take_out/src/main/resources/image/
+#  path: D:\code\JavaProject\reggie_take_out\src\main\resources\image\
